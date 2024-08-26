@@ -16,4 +16,4 @@ jobs:
       run: chmod +x ./expass1/gradlew
     - name: Test with Gradle
       run: ./expass1/gradlew build
-      working-directory: ./expass1
+      working-directory: ./expass1/expass1
