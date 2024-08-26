@@ -1,0 +1,23 @@
+name: Run tests
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout sources
+      uses: actions/checkout@v4
+
+    - name: Set up JDK 21
+      uses: actions/setup-java@v3
+      with:
+        distribution: 'temurin'
+        java-version: '21'
+
+    - name: Give access to execute Gradle
+      run: chmod +x ./expass1/gradlew
+
+    - name: Running the tests
+      run: ./gradlew test
+      working-directory: ./expass1
