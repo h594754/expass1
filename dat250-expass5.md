@@ -24,3 +24,8 @@ No problem with installation of MongoDB, and decided to use MongoDB Compass.
 ### Example given
 NOTE: That the tutorial has mapReduce which is deprecated, so I did it with a aggregation pipeline instead. 
 
+
+
+# Issues
+Did the first on the local db, ran into trouble in experiment 2, and now I know that I should not use the local db. 
+
