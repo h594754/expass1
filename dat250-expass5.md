@@ -1,5 +1,5 @@
 # Installation
-No problem with installation of MongoDB, and decided to use MongoDB Compass.  
+No problem with installation of MongoDB, and decided to use MongoDB Compass and mongosh from cmd.  
 # Experiment 1
 ## Screenshots 1
 ### Insert
