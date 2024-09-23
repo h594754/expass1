@@ -23,9 +23,15 @@ No problem with installation of MongoDB, and decided to use MongoDB Compass.
 ## Screenshots
 ### Example given
 NOTE: That the tutorial has mapReduce which is deprecated, so I did it with a aggregation pipeline instead. 
+![exampleAggregate](./images/exampleaggregate.png)
 
+### My own aggregate function
+This first finds all the customers that have had orders for a total more than 100, to see who spends the most. 
+![spenthundredormore](./images/spenthundredormore.png)
 
+The second one finds all the customers that have bought an orange, to see which customers that buys oranges. 
+![checkwhooranges](./images/checkwhobuysoranges.png)
 
 # Issues
-Did the first on the local db, ran into trouble in experiment 2, and now I know that I should not use the local db. 
+Did the first experiment on the local db, ran into trouble in experiment 2, and now I know that I should not use the local db. 
 
